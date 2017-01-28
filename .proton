@@ -20,9 +20,9 @@
     ;; -----------------------------------
     :tools/git
     :tools/linter
-    ;; :tools/bookmarks
+    :tools/bookmarks
     ;; :tools/build
-    ;; :tools/minimap
+    :tools/terminal
 
 
     ;; -----------------------------------
@@ -89,7 +89,7 @@
     ;; ["core.themes" ["one-dark-ui" "one-dark-syntax"]]
 
     ;; proton configuration
-    ["proton.core.showTabBar" false]
+    ["proton.core.showTabBar" true]
     ["proton.core.relativeLineNumbers" false]
 
     ;; prefer classic vim mode over vim-mode-plus? Change this to :vim-mode
@@ -98,7 +98,7 @@
     ;; RUBY
     ["ruby-test.specFramework" "rspec"]
     ["testFramework" "minitest"]
-    ["autocomplete-ruby.rsensePath" "/Users/jan/.rvm/gems/ruby-2.3.3/bin/rsense"]
+    ["autocomplete-ruby.rsensePath" "rsense"]
   ]
 
   ;; Don't like a keybinding or want to add something yourself? Do it here
