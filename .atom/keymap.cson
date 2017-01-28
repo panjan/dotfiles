@@ -1,0 +1,3 @@
+'.platform-darwin atom-text-editor':
+  'ctrl-]': 'atom-ctags:go-to-declaration'
+  'ctrl-[': 'atom-ctags:return-from-declaration'

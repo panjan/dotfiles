@@ -39,6 +39,7 @@
     ;; :lang/rust
     ;; :lang/javascript
     :lang/ruby
+    :lang/markdown
 
     ;; -----------------------------------
     ;; Frameworks
@@ -59,6 +60,8 @@
   :additional-packages
   [
     :zenburn
+    :project-manager
+    :atom-ctags
   ]
 
   ;; Packages that you want to disable.
@@ -66,10 +69,9 @@
   ;; Bundled packages will be disabled instead.
   ;; Use this configuration instead of atom's `core.disabledPackages`
   :disabled-packages [
-    ;; :autoupdate-packages
-    ;; :about
-    ;; :welcome
+    :symbols-view
   ]
+
   ;; Proton takes over your atom configuration. All settings that are not listed here will get wiped
   ;; Configurations are denoted as 2 element vector consisting of k/v
   ;; sub-vectors inside v will get treated like javascript arrays
@@ -78,6 +80,7 @@
     ;; appearance
     ["editor.fontFamily" "Hack"]
     ["editor.fontSize" 15]
+    ["editor.showLineNumbers" false]
 
     ;; the current default theme
     ["core.themes" ["nucleus-dark-ui" "zenburn"]]
@@ -86,7 +89,7 @@
     ;; ["core.themes" ["one-dark-ui" "one-dark-syntax"]]
 
     ;; proton configuration
-    ["proton.core.showTabBar" true]
+    ["proton.core.showTabBar" false]
     ["proton.core.relativeLineNumbers" false]
 
     ;; prefer classic vim mode over vim-mode-plus? Change this to :vim-mode
@@ -95,6 +98,7 @@
     ;; RUBY
     ["ruby-test.specFramework" "rspec"]
     ["testFramework" "minitest"]
+    ["autocomplete-ruby.rsensePath" "/Users/jan/.rvm/gems/ruby-2.3.3/bin/rsense"]
   ]
 
   ;; Don't like a keybinding or want to add something yourself? Do it here
