@@ -62,6 +62,7 @@
     :zenburn
     :project-manager
     :atom-ctags
+    :cursor-history
   ]
 
   ;; Packages that you want to disable.
