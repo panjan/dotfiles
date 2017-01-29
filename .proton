@@ -63,6 +63,7 @@
     :project-manager
     :atom-ctags
     :cursor-history
+    :open-here
   ]
 
   ;; Packages that you want to disable.
