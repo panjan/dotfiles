@@ -40,6 +40,7 @@
     ;; :lang/javascript
     :lang/ruby
     :lang/markdown
+    ;; :lang/html
 
     ;; -----------------------------------
     ;; Frameworks
@@ -62,9 +63,12 @@
     :zenburn
     :project-manager
     :atom-ctags
+    ; :goto-definition
+    ; :symbols-view
     :cursor-history
-    :open-here
+    ;; :open-here
     :clip-history
+    :atom-html-preview
   ]
 
   ;; Packages that you want to disable.
@@ -92,7 +96,7 @@
     ;; ["core.themes" ["one-dark-ui" "one-dark-syntax"]]
 
     ;; proton configuration
-    ["proton.core.showTabBar" true]
+    ["proton.core.showTabBar" false]
     ["proton.core.relativeLineNumbers" false]
 
     ;; prefer classic vim mode over vim-mode-plus? Change this to :vim-mode
@@ -100,8 +104,9 @@
 
     ;; RUBY
     ["ruby-test.specFramework" "rspec"]
-    ["testFramework" "minitest"]
+    ; ["testFramework" "minitest"]
     ["autocomplete-ruby.rsensePath" "rsense"]
+    ; ["atom-ctags.cmd" "ripper-tags"]
   ]
 
   ;; Don't like a keybinding or want to add something yourself? Do it here
