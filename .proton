@@ -69,6 +69,8 @@
     ;; :open-here
     :clip-history
     :atom-html-preview
+    :tablr
+    :language-groovy
   ]
 
   ;; Packages that you want to disable.
