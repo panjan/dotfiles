@@ -109,6 +109,7 @@
     ; ["testFramework" "minitest"]
     ["autocomplete-ruby.rsensePath" "rsense"]
     ; ["atom-ctags.cmd" "ripper-tags"]
+    ["linter-rubocop.command" "/Users/jan/.rvm/gems/ruby-2.3.3/wrappers/rubocop"]
   ]
 
   ;; Don't like a keybinding or want to add something yourself? Do it here
