@@ -34,7 +34,7 @@
     ;; :lang/python
     ;; :lang/julia
     ;; :lang/latex
-    ;; :lang/elixir
+    :lang/elixir
     ;; :lang/markdown
     ;; :lang/rust
     ;; :lang/javascript
