@@ -17,3 +17,6 @@ alias gt='git tag -l'
 alias got='git'
 alias get='git'
 alias fit='git'
+
+# platformio-ide
+alias platformio-ide='ATOM_HOME=$HOME/.platformio atom $@'
