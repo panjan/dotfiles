@@ -71,6 +71,7 @@
     :atom-html-preview
     :tablr
     :language-groovy
+    :editorconfig
   ]
 
   ;; Packages that you want to disable.
