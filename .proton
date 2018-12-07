@@ -37,7 +37,7 @@
     :lang/elixir
     ;; :lang/markdown
     ;; :lang/rust
-    ;; :lang/javascript
+    :lang/javascript
     :lang/ruby
     :lang/markdown
     ;; :lang/html
