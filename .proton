@@ -72,6 +72,8 @@
     :tablr
     :language-groovy
     :editorconfig
+    :language-erlang
+    :autocomplete-erlang
   ]
 
   ;; Packages that you want to disable.
