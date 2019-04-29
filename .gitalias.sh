@@ -33,6 +33,7 @@ alias gri='git rebase --interactive'
 alias gria='git rebase --interactive --autosquash'
 alias grc='git rebase --continue'
 alias grum='git fetch upstream && git rebase upstream/master'
+alias grud='git fetch upstream && git rebase upstream/develop'
 alias gst='git rev-list -n 1' # finds commit by tag
 alias gcf='git commit --fixup'
 alias gcfh='git commit --fixup HEAD'
