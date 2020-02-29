@@ -32,7 +32,12 @@ additional_packages = [
   'CTags',
   'TestRSpec',
   'Ruby Block Converter',
-  'GitLink'
+  'GitLink',
+  'TypeScript',
+  'SublimeLinter-tslint',
+  'EditorConfig',
+  'JsPrettier',
+  'LSP'
 ]
 
 """
@@ -61,6 +66,14 @@ user_config = {
     # "ensure_newline_at_eof_on_save": True,
     # "trim_trailing_white_space_on_save": True,
 
+    "folder_exclude_patterns": [
+        "node_modules",
+        "nest-egg-be-2/lib",
+        "dist",
+        "coverage",
+        ".git"
+    ],
+
     # Sublimious comes pre-configured with a lot of good settings
     # But if you are not happy with them, overwrite them here
     # Take the package name from the <Preferences> -> <Package Settings> menu
@@ -70,6 +83,9 @@ user_config = {
         # }
         # "SomePackages": {
         #     "some_config": "something else",
+        # }
+        # "Vintageous": {
+        #     "vintageous_use_ctrl_keys": true
         # }
     }
 }
