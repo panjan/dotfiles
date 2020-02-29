@@ -1,4 +1,5 @@
-$ code --list-extensions
+# code --list-extensions
+# cat .vscode_extensions | xargs -n 1 code --install-extension
 42Crunch.vscode-openapi
 eamodio.gitlens
 EditorConfig.EditorConfig
