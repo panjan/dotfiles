@@ -1,0 +1,10 @@
+$ code --list-extensions
+eamodio.gitlens
+EditorConfig.EditorConfig
+elixir-lsp.elixir-ls
+esbenp.prettier-vscode
+firsttris.vscode-jest-runner
+mauve.terraform
+ms-azuretools.vscode-docker
+ryanolsonx.solarized
+vscodevim.vim
