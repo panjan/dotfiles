@@ -1,10 +1,20 @@
 $ code --list-extensions
+42Crunch.vscode-openapi
 eamodio.gitlens
 EditorConfig.EditorConfig
-elixir-lsp.elixir-ls
 esbenp.prettier-vscode
 firsttris.vscode-jest-runner
-mauve.terraform
+hashicorp.terraform
+iampeterbanjo.elixirlinter
+JakeBecker.elixir-ls
 ms-azuretools.vscode-docker
+ms-vscode-remote.remote-containers
+ms-vscode.cpptools
+ms-vscode.vscode-typescript-tslint-plugin
+platformio.platformio-ide
+rebornix.ruby
+redhat.vscode-commons
+redhat.vscode-yaml
 ryanolsonx.solarized
 vscodevim.vim
+wingrunr21.vscode-ruby
