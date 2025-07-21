@@ -1,7 +1,10 @@
-alias testalias="echo works"
 alias gs="git status"
 alias ga="git add"
+
+# git branch
 alias gb="git branch"
+alias gbh='git reflog | grep "checkout:" | awk '"'"'{print $NF}'"'"' | awk '"'"'!seen[$0]++'"'"' | head -n 30'
+
 alias gc="git commit"
 alias gcl="git clone"
 alias gd="git diff"
@@ -40,4 +43,6 @@ alias gcfh="git commit --fixup HEAD"
 alias gcp="git cherry-pick"
 alias gcpc="git cherry-pick --continue"
 alias gbd="git branch --merged | egrep -v \"(^\*|master|develop)\" | xargs git branch -d"
-alias gph="git push honza"
+alias glm='git log --author=hi@honza.me --pretty=format:"%s"'
+alias glc='git log -1 --pretty=format:%B | pbcopy'
+

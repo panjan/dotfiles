@@ -804,7 +804,7 @@
   ],
   "vim.easymotion": true,
   "editor.fontSize": 15,
-  "workbench.colorTheme": "Solarized Dark+",
+  "workbench.colorTheme": "Nord",
   "editor.lineNumbers": "on",
   "editor.minimap.enabled": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -813,14 +813,30 @@
   "workbench.editor.enablePreview": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
-  "workbench.editor.showTabs": true,
+  "workbench.editor.showTabs": "multiple",
   "elixirLS.enableTestLenses": true,
-  "elixirLS.fetchDeps": false,
+  "elixirLS.fetchDeps": true,
   "editor.tabSize": 8,
   "editor.cursorStyle": "line",
   "editor.insertSpaces": false,
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
   "editor.wordWrap": "off",
   "redhat.telemetry.enabled": false,
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.openRepositoryInParentFolders": "never",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[elixir]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "gitlab.duoCodeSuggestions.additionalLanguages": [
+    "Elixir"
+  ],
+  "gitlab.real-timeSecurityScan.enabled": true,
+  "gitlab.duoAgenticChat.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": true
 }
